@@ -1,0 +1,24 @@
+{
+  "name": "vue-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/webpack --watch --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-rc.3",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.1",
+    "style-loader": "^0.13.1",
+    "vue": "^2.1.10",
+    "vue-html-loader": "^1.2.3",
+    "vue-loader": "^11.0.0",
+    "vue-template-compiler": "^2.1.10",
+    "webpack": "^2.2.1"
+  }
+}
