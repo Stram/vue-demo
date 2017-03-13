@@ -1,9 +1,10 @@
 <template lang="html">
   <div class="mdl-list">
-    <div class="mdl-list__item mdl-list__item--three-line"
+    <div
+      class="mdl-list__item mdl-list__item--three-line"
       v-for="message in messages"
     >
-      <message-item :message="message">
+      <message-item :message="message" />
     </div>
   </div>
 </template>
@@ -31,6 +32,6 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 
 </style>

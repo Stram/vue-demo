@@ -14,10 +14,6 @@ module.exports = {
     filename: 'main.js'
   },
 
-  plugins: [
-    new ExtractTextPlugin('main.css')
-  ],
-
   target: 'web', // https://webpack.github.io/docs/configuration.html#target
 
   resolve: {
@@ -26,6 +22,10 @@ module.exports = {
       vue: 'vue/dist/vue.js'
     }
   },
+
+  plugins: [
+    new ExtractTextPlugin('main.css')
+  ],
 
   module: {
     rules: [{
