@@ -14,8 +14,6 @@ module.exports = {
     filename: 'main.js'
   },
 
-  target: 'web', // https://webpack.github.io/docs/configuration.html#target
-
   resolve: {
     extensions: ['.js', '.vue'],
     alias: {

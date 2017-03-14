@@ -31,7 +31,7 @@
       },
 
       pageTitle() {
-        return `Chat with ${this.reciver} (${this.messagesCount})`;
+        return `Chat with ${this.receiver} (${this.messagesCount})`;
       }
     },
     watch: {},
@@ -46,7 +46,7 @@
     data() {
       return {
         currentUser: 'Stjepko',
-        reciver: 'Kreso',
+        receiver: 'Kreso',
         messages: [{
           sender: 'Kreso',
           content: 'Hi'
